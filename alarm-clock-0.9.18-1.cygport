@@ -1,0 +1,6 @@
+inherit distutils
+
+DESCRIPTION="GTK+ alarm clock"
+HOMEPAGE="http://alarm-clock.54.pl/"
+SRC_URI="http://89.75.57.136/downloads/${P}.tar.bz2"
+PATCH_URI="0.9.18-install.patch"

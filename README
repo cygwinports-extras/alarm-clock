@@ -1,0 +1,141 @@
+alarm-clock
+------------------------------------------
+Alarm Clock is a small alarm panel applet developed in Python for 
+GNOME/GTK desktop environments. It supports sound fading, scheduled 
+alarms, snooze option, passive window reminders, exception lists for 
+scheduled alarms, exporting alarms and much more!
+
+Runtime requirements:
+  gstreamer010-plugins-base
+  gstreamer010-plugins-good
+  gstreamer010-plugins-oss
+  python-2.5.4-1
+  python-gobject2-2.15.4-1
+  python-gstreamer010-0.10.13-1
+  python-gtk2-2.13.0-1
+  python-notify-0.1.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.3-1
+  python-2.5.4-1
+
+Canonical website:
+  http://alarm-clock.54.pl/
+
+Canonical download:
+  http://89.75.57.136/downloads/
+
+-------------------------------------------
+
+Build instructions:
+  unpack alarm-clock-0.9.18-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./alarm-clock-0.9.18-X.cygport all
+
+This will create:
+  /usr/src/alarm-clock-0.9.18-X-src.tar.bz2
+  /usr/src/alarm-clock-0.9.18-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/alarm-clock.sh
+  /usr/bin/alarm-clock
+  /usr/lib/python2.5/site-packages/alarm_clock-0.9.18-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/alarmclock/CheckAlarmThread.py
+  /usr/lib/python2.5/site-packages/alarmclock/CheckAlarmThread.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/CheckAlarmThread.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/CountThread.py
+  /usr/lib/python2.5/site-packages/alarmclock/CountThread.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/CountThread.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/MainClass.py
+  /usr/lib/python2.5/site-packages/alarmclock/MainClass.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/MainClass.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/OldDirCheck.py
+  /usr/lib/python2.5/site-packages/alarmclock/OldDirCheck.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/OldDirCheck.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/Prefix.py
+  /usr/lib/python2.5/site-packages/alarmclock/Prefix.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/Prefix.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/RepeatSoundThread.py
+  /usr/lib/python2.5/site-packages/alarmclock/RepeatSoundThread.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/RepeatSoundThread.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/SnoozeThread.py
+  /usr/lib/python2.5/site-packages/alarmclock/SnoozeThread.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/SnoozeThread.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/Version.py
+  /usr/lib/python2.5/site-packages/alarmclock/Version.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/Version.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/VolumeFadeThread.py
+  /usr/lib/python2.5/site-packages/alarmclock/VolumeFadeThread.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/VolumeFadeThread.pyo
+  /usr/lib/python2.5/site-packages/alarmclock/__init__.py
+  /usr/lib/python2.5/site-packages/alarmclock/__init__.pyc
+  /usr/lib/python2.5/site-packages/alarmclock/__init__.pyo
+  /usr/share/alarm-clock/glade/main.glade
+  /usr/share/alarm-clock/scalable/alarm-caution.svg
+  /usr/share/alarm-clock/scalable/alarm-clock.svg
+  /usr/share/alarm-clock/sound/ring.wav
+  /usr/share/applications/alarm-clock.desktop
+  /usr/share/doc/alarm-clock-0.9.18/ChangeLog
+  /usr/share/doc/alarm-clock-0.9.18/INSTALL
+  /usr/share/doc/alarm-clock-0.9.18/LICENSE
+  /usr/share/doc/alarm-clock-0.9.18/README
+  /usr/share/locale/ar/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/bg/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/bs/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/ca/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/cs/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/da/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/de/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/el/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/es/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/eu/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/fa/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/fi/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/fr/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/he/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/hu/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/id/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/it/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/ja/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/ko/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/la/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/lv/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/mk/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/nb/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/nds/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/nl/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/nn/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/pl/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/pt/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/ro/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/ru/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/si/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/sk/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/sl/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/sr/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/sv/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/tr/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/alarm-clock.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/alarm-clock.mo
+  /usr/share/pixmaps/alarm-clock.svg
+
+------------------
+
+Port Notes:
+
+----- version 0.9.18-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

@@ -1,0 +1,7 @@
+category: Gnome Utils
+requires: python python-gobject2 python-gtk2 python-gstreamer010 python-notify gstreamer010-plugins-base gstreamer010-plugins-good gstreamer010-plugins-oss
+sdesc: "GTK+ alarm clock"
+ldesc: "Alarm Clock is a small alarm panel applet developed in Python 
+for GNOME/GTK desktop environments. It supports sound fading, scheduled 
+alarms, snooze option, passive window reminders, exception lists for 
+scheduled alarms, exporting alarms and much more!"
