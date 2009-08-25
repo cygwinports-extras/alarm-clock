@@ -3,7 +3,6 @@ inherit gnome2
 DESCRIPTION="GTK+ alarm clock"
 HOMEPAGE="http://alarm-clock.pl/"
 SRC_URI="http://alarm-clock.pl/downloads/${P}.tar.bz2"
-PATCH_URI="1.1-export-dynamic.patch"
 
 # https://bugs.launchpad.net/alarmclock/+bug/354482
 DISTCLEANFILES="config.h config.status libtool"

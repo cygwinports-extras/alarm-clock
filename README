@@ -20,15 +20,15 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
+  autoconf2.5-2.64-10
   automake1.11-1.11-10
-  binutils-20080624-2
-  cygport-0.9.7-1
+  binutils-2.19.51-1
+  cygport-0.9.9-1
   gawk-3.1.6-2
   gettext-devel-0.17-11
   gnome-common-2.26.0-2
   intltool-0.40.6-1
-  libtool-2.2.7a-13
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -42,79 +42,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack alarm-clock-1.1-X-src.tar.bz2
+  unpack alarm-clock-1.2.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./alarm-clock-1.1-X.cygport all
+  cygport ./alarm-clock-1.2.2-X.cygport all
 
 This will create:
-  /usr/src/alarm-clock-1.1-X-src.tar.bz2
-  /usr/src/alarm-clock-1.1-X.tar.bz2
+  /usr/src/alarm-clock-1.2.2-X-src.tar.bz2
+  /usr/src/alarm-clock-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/alarm-clock.sh
-  /usr/bin/alarmclock.exe
-  /usr/share/alarmclock/alarm-caution.svg
-  /usr/share/alarmclock/alarm-clock.svg
-  /usr/share/alarmclock/alarm-clock.ui
-  /usr/share/alarmclock/ring.wav
-  /usr/share/applications/alarm-clock.desktop
-  /usr/share/doc/alarm-clock/AUTHORS
-  /usr/share/doc/alarm-clock/COPYING
-  /usr/share/doc/alarm-clock/ChangeLog
-  /usr/share/doc/alarm-clock/INSTALL
-  /usr/share/doc/alarm-clock/NEWS
-  /usr/share/doc/alarm-clock/README
-  /usr/share/locale/ar/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/bg/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/bs/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/ca/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/cs/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/da/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/de/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/el/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/en_CA/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/es/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/eu/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/fa/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/fi/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/fr/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/he/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/hu/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/id/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/it/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/ja/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/ko/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/la/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/lv/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/mk/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/nb/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/nds/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/nl/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/nn/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/pl/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/pt/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/ro/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/ru/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/si/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/sk/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/sl/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/sr/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/sv/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/tr/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/alarmclock.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/alarmclock.mo
-  /usr/share/pixmaps/alarm-clock.png
-
-------------------
-
 Port Notes:
+
+----- version 1.2.2-1 -----
+Version bump.
 
 ----- version 1.1-1 -----
 Initial release for Cygwin 1.7.
