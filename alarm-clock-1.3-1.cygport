@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ alarm clock"
+HOMEPAGE="http://alarm-clock.pl/"
+SRC_URI="http://alarm-clock.pl/media/distfiles/${P}.tar.bz2"
