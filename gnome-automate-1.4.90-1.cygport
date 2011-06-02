@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME alarm clock"
+HOMEPAGE="http://gnome-automate.net/"
+SRC_URI="http://gnome-automate.net/files/${P}.tar.bz2"
+PATCH_URI="1.4.90-libnotify07.patch"
+
+DISTCLEANFILES="src/config.* src/libtool"

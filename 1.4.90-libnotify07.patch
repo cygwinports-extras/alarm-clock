@@ -1,0 +1,15 @@
+--- origsrc/gnome-automate-1.4.90/src/alarm_runner.c	2011-05-10 06:21:56.000000000 -0500
++++ src/gnome-automate-1.4.90/src/alarm_runner.c	2011-06-02 01:46:19.966218700 -0500
+@@ -213,10 +213,10 @@ show_popup(gchar *name)
+ 	
+ 	if (notify != NULL) notify_notification_close(notify, NULL);
+ #ifndef APPINDICATOR
+-	notify = notify_notification_new_with_status_icon(title, text, NULL, status_icon);
++	notify = notify_notification_new(title, text, NULL);
+ #endif
+ #ifdef APPINDICATOR
+-	notify = notify_notification_new(title, text, NULL, NULL);
++	notify = notify_notification_new(title, text, NULL);
+ #endif
+ 	if (notify == NULL) g_print("BAD");
+ 	notify_notification_set_urgency(notify, type);

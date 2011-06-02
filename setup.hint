@@ -1,5 +1,5 @@
 category: Gnome
-requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgstreamer0.10_0 libgtk2.0_0 libintl8 libnotify1 libunique1.0_0
+requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgstreamer0.10_0 libgtk2.0_0 libintl8 libnotify4 libunique1.0_0
 sdesc: "GTK+ alarm clock"
 ldesc: "Alarm Clock is a small alarm panel applet developed in Python 
 for GNOME/GTK desktop environments. It supports sound fading, scheduled 
